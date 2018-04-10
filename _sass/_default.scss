@@ -1,7 +1,8 @@
 // default-styling
 
+
 body {
-    font-family: $myfont-family-base;
+    font-family: 'geomanistregular';
     font-weight: $font-weight-base;
     font-size: $font-size-base;
     line-height: $lineheight-base;
@@ -10,7 +11,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: $myfont-family-title;
+    font-family: 'geomanistregular';
     font-weight: $font-weight-bold;
 }
 
@@ -47,6 +48,53 @@ blockquote {
     padding-left: 24px;
     border-left: 2px solid $mycolor-5;
 }
+ .navlinks{
+     height: 100%;
+     background-color: white;
+ }
+// kleuren
+ .kleur1{
+     background-color: $mycolor-1;
+ }
+
+ .kleur2{
+    background-color: $mycolor-2;
+}
+
+.kleur3{
+    background-color: $mycolor-3;
+}
+
+.kleur4{
+    background-color: $mycolor-4;
+}
+
+.kleur5{
+    background-color: $mycolor-5;
+}
+
+.kleur6{
+    background-color: $mycolor-6;
+}
+
+.kleur7{
+    background-color: $mycolor-7;
+}
+
+// kleur
+.row{
+    padding-bottom: 30px;
+}
+ .kader{
+     height: 150px;
+     width: 150px;
+ } 
+
+ .kleurbeschrijving{
+     padding-left: 30px;
+     padding-right: 30px;
+ }
+
 
 // ongeordende lijstjes met een ander symbool of kleur
 main ul {

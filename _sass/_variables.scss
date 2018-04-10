@@ -13,11 +13,13 @@ $color-grey-5:rgba(10,10,10,1);
 $color-black:rgba(0,0,0,1);
 
 // Website
-$mycolor-1:rgba(162,139,119,1);
-$mycolor-2:rgba(80,69,57,1);
-$mycolor-3:rgba(193,173,121,1);
-$mycolor-4:rgba(147,131,86,1);
-$mycolor-5:rgba(155,59,29,1);
+$mycolor-1:rgba(133,154,135,1);
+$mycolor-2:rgba(205,135,118,1);
+$mycolor-3:rgba(170,86,92,1);
+$mycolor-4:rgba(86,63,73,1);
+$mycolor-5:rgba(62,45,51,1);
+$mycolor-6:rgba(246,232,213,1);
+$mycolor-7:rgba(253,247,239,1);
 
 $body-bg: $color-white;
 $body-color: $color-grey-4;
@@ -36,34 +38,42 @@ $clientcolor-5:rgba(250,120,120,1);
 // -----------------------------
 
 // Imports
-// Website
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
-// Client specific
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@font-face {
+    font-family: 'geomanistregular';
+    src: url('assets/fonts/geomanist-regular-webfont.eot');
+    src: url('assets/fonts/geomanist-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/geomanist-regular-webfont.woff2') format('woff2'),
+         url('assets/fonts/geomanist-regular-webfont.woff') format('woff'),
+         url('assets/fonts/geomanist-regular-webfont.ttf') format('truetype'),
+         url('assets/fonts/geomanist-regular-webfont.svg#geomanistregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 // type
-$myfont-family-base: 'Raleway', serif;
+$myfont-family-base: 'geomanistregular';
 $myfont-family-title: $myfont-family-base;
 
 // sizes
 $font-size-base: 16px;
 $lineheight-base: 1.6em;
-$font-weight-base: 400;
-$font-weight-light: 200;
-$font-weight-bold: 800;
+//$font-weight-base: 400;
+//$font-weight-light: 200;
+//$font-weight-bold: 800;
 
 
 // Type Client specific
 //------------------------------
 
 // type
-$clientfont-family-base: 'Raleway', serif;
+$clientfont-family-base: 'geomanistregular';
 $clientfont-family-title: $myfont-family-base;
 
 // sizes
 $client-font-size-base: 16px;
 $client-lineheight-base: 1.6em;
-$client-font-weight-base: 400;
-$client-font-weight-light: 200;
-$client-font-weight-bold: 800;
+//$client-font-weight-base: 400;
+//$client-font-weight-light: 200;
+//$client-font-weight-bold: 800;
