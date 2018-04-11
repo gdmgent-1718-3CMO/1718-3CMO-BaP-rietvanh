@@ -1,13 +1,13 @@
 <nav class="navbar navbar-expand-md navbar-light flex-column custom-nav-ver navlinks">
 
-    <a class="navbar-brand" href="#"><img src="images/logo_home.png" alt="logo duikernikkers" class="w-100"></a>
+    <a class="navbar-brand text-center toplogo" href="#"><img src="images/logo_home.png" alt="logo duikernikkers" class="w-50"></a>
    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavigation" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse flex-column" id="mainNavigation">
 
-    <ul class="navbar-nav flex-column">
+    <ul class="navbar-nav flex-column midden">
 {%- for nav-item in site.data.navigation %}
     
     {%- capture item_classes %}{% if page.url contains nav-item.permalink %}active{% endif %}{% endcapture %}

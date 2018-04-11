@@ -8,16 +8,17 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.4.1/dist/bootstrap-toc.min.css">
     <link rel="stylesheet" href="{{ site.baseurl }}{% link assets/css/app.scss %}">
+    <link rel="stylesheet" href="assets/css/stylesheet.css" type="text/css" charset="utf-8" />
 </head>
 <body data-spy="scroll" data-target="#toc">  
 
 <div class="container-fluid">
     <div class="row navlinks">
-        <div class="col-12 col-md-3 col-lg-2">
+        <div class="col-12 col-md-4 col-lg-3 linkerkant">
             {% include nav_ver_c.html %}
         </div>
 
-        <main class="col-12 col-md-6 col-lg-8 order-md-1 pt-5">
+        <main class="col-12 col-md-8 col-lg-9 order-md-1 pt-5 rechterkant">
             {{ content }}
         </main>
     </div>

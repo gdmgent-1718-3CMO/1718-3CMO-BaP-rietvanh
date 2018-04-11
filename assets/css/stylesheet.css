@@ -1,0 +1,183 @@
+/*fonts*/
+
+@font-face {
+    font-family: 'geomanistregular';
+    src: url('../fonts/geomanist-regular-webfont.eot');
+    src: url('../fonts/geomanist-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/geomanist-regular-webfont.woff2') format('woff2'),
+         url('../fonts/geomanist-regular-webfont.woff') format('woff'),
+         url('../fonts/geomanist-regular-webfont.ttf') format('truetype'),
+         url('../fonts/geomanist-regular-webfont.svg#geomanistregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'geomanistmedium';
+    src: url('../fonts/geomanist-medium-webfont.eot');
+    src: url('../fonts/geomanist-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/geomanist-medium-webfont.woff2') format('woff2'),
+         url('../fonts/geomanist-medium-webfont.woff') format('woff'),
+         url('../fonts/geomanist-medium-webfont.ttf') format('truetype'),
+         url('../fonts/geomanist-medium-webfont.svg#geomanistregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'geomanistitalic';
+    src: url('../fonts/geomanist-regular-italic-webfont.eot');
+    src: url('../fonts/geomanist-regular-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/geomanist-regular-italic-webfont.woff2') format('woff2'),
+         url('../fonts/geomanist-regular-italic-webfont.woff') format('woff'),
+         url('../fonts/geomanist-regular-italic-webfont.ttf') format('truetype'),
+         url('../fonts/geomanist-regular-italic-webfont.svg#geomanistitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face{
+    font-family: 'depalma';
+    src: url(../fonts/depalma.ttf);
+}
+
+/*kleuren*/
+.kleur1{
+    background-color: rgba(133,154,135,1);
+}
+
+.kleur2{
+   background-color: rgba(205,135,118,1);
+}
+
+.kleur3{
+   background-color: rgba(170,86,92,1);
+}
+
+.kleur4{
+   background-color: rgba(86,63,73,1);
+}
+
+.kleur5{
+   background-color: rgba(62,45,51,1);
+}
+
+.kleur6{
+   background-color: rgba(246,232,213,1);
+}
+
+.kleur7{
+   background-color: rgba(253,247,239,1);
+}
+
+/*site*/
+
+body {
+    font-family: 'geomanistregular';
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'depalma';
+}
+
+
+/*navigatie links aanpassingen*/
+
+.midden{
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+.linkerkant{
+    background-color: white;
+}
+
+.toplogo{
+    padding-top: 30px;
+}
+
+/*inhoud rechterkant algemeen*/
+
+.rechterkant{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    background-color: rgba(240,240,240,1);
+}
+
+/*pagina*/
+.row{
+    padding-bottom: 30px;
+}
+
+.intro{
+    font-family: 'geomanistmedium';
+    color:  rgba(86,63,73,1);
+}
+
+.onderlijnen{
+    text-decoration: underline;
+}
+
+.ruimteboven{
+    padding-top: 30px;
+}
+
+.vet{
+    font-family: 'geomanistmedium';
+}
+
+/*pagina kleur*/
+
+.kleurbeschrijving{
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/*pagina logo*/
+
+.btn{
+    margin-top: 30px;
+    margin-bottom: 10px;    
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.logo{
+    padding-top: 5px;
+}
+
+.logodownload{
+    height: 300px;
+}
+
+.logo_alternatief{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+/*pagina typografie*/
+
+.typo_depalma{
+    font-family: 'depalma';
+    color: rgba(62,45,51,1);
+}
+
+.typo_geo_reg{
+    font-family: 'geomanistregular';
+    color: rgba(62,45,51,1);
+}
+
+.typo_geo_med{
+    font-family: 'geomanistmedium';
+    color: rgba(62,45,51,1);
+}
+
+.typo_geo_ital{
+    font-family: 'geomanistitalic';
+    color: rgba(62,45,51,1);
+}

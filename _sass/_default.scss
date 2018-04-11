@@ -2,7 +2,7 @@
 
 
 body {
-    font-family: 'geomanistregular';
+    font-family: $myfont-family-base;
     font-weight: $font-weight-base;
     font-size: $font-size-base;
     line-height: $lineheight-base;
@@ -11,14 +11,15 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'geomanistregular';
+    font-family: $myfont-family-base;
     font-weight: $font-weight-bold;
+    color: $mycolor-3;
 }
 
 h1 {
     font-weight: $font-weight-light;
     font-size: 4rem;
-    color: $color-grey-2;
+    color: $mycolor-3;
 }
 h2 {
     font-weight: $font-weight-light;
@@ -52,48 +53,7 @@ blockquote {
      height: 100%;
      background-color: white;
  }
-// kleuren
- .kleur1{
-     background-color: $mycolor-1;
- }
 
- .kleur2{
-    background-color: $mycolor-2;
-}
-
-.kleur3{
-    background-color: $mycolor-3;
-}
-
-.kleur4{
-    background-color: $mycolor-4;
-}
-
-.kleur5{
-    background-color: $mycolor-5;
-}
-
-.kleur6{
-    background-color: $mycolor-6;
-}
-
-.kleur7{
-    background-color: $mycolor-7;
-}
-
-// kleur
-.row{
-    padding-bottom: 30px;
-}
- .kader{
-     height: 150px;
-     width: 150px;
- } 
-
- .kleurbeschrijving{
-     padding-left: 30px;
-     padding-right: 30px;
- }
 
 
 // ongeordende lijstjes met een ander symbool of kleur
@@ -113,28 +73,7 @@ main ul {
 }
 
 //geordende lijstjes met een ander symbool of kleur
-main ol {
-    list-style: none;  
-    margin: 0 0 1em;
-    padding: 0;
-    counter-reset: i 0;
-    li {
-      padding-left: 25px;
-      text-indent: -25px;
-      margin-bottom: 0.5rem;
-      &:before {
-        counter-increment: i;
-        content: counter(i);    
-        padding: 3px 6px;
-        margin-right: 5px;
-        border-radius: 5px;
-        background-color: $mycolor-5;
-        color: $color-white;
-        font-family: $myfont-family-title;
-        font-weight: $font-weight-bold;
-      }    
-    }
-  }
+
 
 //forms 
 button, a.btn {

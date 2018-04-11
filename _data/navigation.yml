@@ -7,10 +7,15 @@
   # permalink: /index 
   # fa-icon: icon-info
 
+- name: Home
+  description: Home
+  permalink: /index
+  # fa-icon: icon-graduation-cap
+
 - name: Logo
   description: Logo
   permalink: /logo
-  # fa-icon: icon-graduation-cap
+  # fa-icon: icon-info
 
 - name: Kleur
   description: Kleur
@@ -20,7 +25,10 @@
 - name: Illustraties
   description: Illustraties
   permalink: /illustraties
-  # fa-icon: icon-info
+
+- name: Typografie
+  description: Typografie
+  permalink: /typografie
 
 - name: Styleguide
   description: Styleguide
