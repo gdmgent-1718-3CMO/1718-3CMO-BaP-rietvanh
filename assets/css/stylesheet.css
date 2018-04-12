@@ -194,3 +194,9 @@ h1, h2, h3, h4, h5, h6{
     height: 350px;
     /*border: 2px solid orange;*/
 }
+
+footer{
+    padding-top: 30px;
+    background-color: rgba(86,63,73,1);
+    color: rgba(253,247,239,1);
+}
