@@ -32,6 +32,6 @@
 
 - name: Styleguide
   description: Styleguide
-  folder: pages/stijlgids
+  folder: pages/stijlgids/
   permalink: stijlgids/ 
   # fa-icon: icon-info

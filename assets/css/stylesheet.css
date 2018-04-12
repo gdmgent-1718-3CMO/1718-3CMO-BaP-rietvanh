@@ -98,6 +98,12 @@ h1, h2, h3, h4, h5, h6{
     padding-top: 30px;
 }
 
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(170,86,92,1);
+}
+
 /*inhoud rechterkant algemeen*/
 
 .rechterkant{
@@ -180,4 +186,11 @@ h1, h2, h3, h4, h5, h6{
 .typo_geo_ital{
     font-family: 'geomanistitalic';
     color: rgba(62,45,51,1);
+}
+
+/*pagina jubileum*/
+
+.inpakdownload{
+    height: 350px;
+    /*border: 2px solid orange;*/
 }
